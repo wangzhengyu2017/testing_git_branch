@@ -1,8 +1,12 @@
-def add( an, b ):
+def add( a, b ):
     c = a + b
     return c
 
-a = 1
-b = 2
+def sub( a, b):
+    c = a - b
+    return c
+
+a = 2
+b = 1
 c = add( a, b )
 
